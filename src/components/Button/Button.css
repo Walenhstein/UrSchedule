@@ -1,0 +1,23 @@
+.button {
+    width: 100px;
+    height: 50px;
+    background-color: #ffd000;
+    font-weight: bolder;
+    color: #000;
+    transition: 0.2s;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+}
+
+.button:hover {
+    box-shadow: none;
+    border: none;
+}
+
+.button:active {
+box-shadow: inset -1px -1px 10px rgba(0, 0, 0, 0.5);
+}
